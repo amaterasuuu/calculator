@@ -3,7 +3,7 @@
     src: url(digital.ttf);
    }
 body {
-    background-image: url(space.jpg);
+    background: url(12.jpg) center no-repeat;
     margin: 0;
     display: flex;
     height: 600px;
@@ -35,7 +35,7 @@ body {
     border-radius: 5px;
     font-family: digital;
     border: 0;
-    padding: 1px 10px 1px 10px;
+    padding: 0px 10px 0px 10px;
 }
 .tab {
     display: flex;

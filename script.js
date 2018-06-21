@@ -83,12 +83,10 @@ function dotpress() {
 };
 
 function clearpress(id) {
-    if (id === 'c') {
+    if (id === 'ac') {
         display.value = '0';
         newnumber = true;
-    } else if (id === 'ac')
-        display.value = '0';
-        newnumber = true;
-        currentnumber = 0;
-        pendingop = '';
+    } else if (id === 'c') {
+        display.value = display.value.substring(0, display.value.length - 1);
+    };
 };

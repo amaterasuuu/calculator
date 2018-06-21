@@ -25,7 +25,7 @@ for (var i=0; i<operationsb.length; i++) {
 for (var i=0; i<clearb.length; i++) {
     var clear = clearb[i];
     clear.addEventListener('click', function(e) {
-        clearpress(e.srcElement.id)
+        clearpress(e.target.id)
     });
 };
 
